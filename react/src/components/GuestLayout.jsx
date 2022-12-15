@@ -1,9 +1,14 @@
+import { Outlet } from "react-router-dom";
+
 function GuestLayout() {
-    return ( 
+    return (
         <div>
-            404 - Page Not Found
+            <div>
+                Guest Layout
+                <Outlet />
+            </div>
         </div>
-     );
+    );
 }
 
 export default GuestLayout;
